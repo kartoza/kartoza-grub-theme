@@ -3,7 +3,7 @@ name: Update changes on commit
 on:
   workflow_dispatch:
   push:
-    branches: [master]
+    branches: [main]
     paths:
       - "assets/**"
       - "customize/**"
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - name: 📂 Create temp folder
         run: |
           mkdir temp
