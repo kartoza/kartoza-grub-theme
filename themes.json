@@ -1,0 +1,8 @@
+{
+  "distros": [
+    {
+      "name": "NixOS",
+      "versionAdded": "v1"
+    }
+  ]
+}
